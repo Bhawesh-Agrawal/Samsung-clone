@@ -1,0 +1,228 @@
+@media(max-width:1300px){
+    .hamburger-menu{
+        display: block;
+    }
+
+    .nav1{
+        display : none;
+    }
+
+    .list-hid{
+        display: none;
+    }
+
+    .nav2{
+        position: absolute;
+        right: 8%;
+    }
+
+}
+
+@media(max-width:1000px){
+    .product-price span{
+        display: none;
+     }
+}
+
+@media(max-width:1405px){
+    
+
+    .container{
+        width: 80%;
+    }
+
+    .film{
+        width: 80%;
+    }
+
+    .box-1 strong,.box-1 p{
+        font-size: 1.2em;
+    }
+
+    .box-2 strong,.box-2 p{
+        font-size: 1.2em;
+    }
+
+    .box-3 strong,.box-3 p{
+        font-size: 1.2em;
+    }
+
+    .box-1 span{
+        font-size: 1em;
+    }
+    .box-2 span{
+        font-size: 1em;
+    }
+    .box-3 span{
+        font-size: 1em;
+    }
+}
+
+
+@media(max-width:450px){
+    ion-icon {
+        font-size: 1.4em;
+        --ionicon-stroke-width:30px;
+    }
+
+    .nav2{
+        position: absolute;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width:1370px){
+    .feature-video{
+        width: 340px;
+        height: 360px;
+        left: 10%;
+    }
+
+    .feature-video video{
+        width: 220px;
+        height: 360px;
+    }
+
+    .top-head strong{
+        font-size: 1.5em;
+    }
+
+    .top-head span{
+        font-size: 0.75em;
+    }
+
+
+    .progress-area{
+        width: 220px;
+    }
+
+    .chevron-back-circle-outline, .chevron-forward-circle-outline{
+        font-size: 40px;
+    }
+
+    .feature-text strong{
+        font-size: 1.3em;
+    }
+
+    .Circle-to-search > img , .live-translate > img, .Interpreter > img, .Note-Assist > img, .Generative-Edit > img, .Chat-Assist > img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .feature-style{
+        top: 65%;
+        gap: 15px;
+    }
+}
+
+@media(max-width:760px) {
+    .feature{
+        flex-direction: column;
+        top :25%;
+        padding-bottom: 120px;
+    }
+
+    .feature-video{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .feature-text{
+        position: absolute;
+        width: 220px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 48%;
+    }
+    .feature-text strong{
+        font-size: 1em;
+    }
+
+    .feature-text span{
+        font-size: 0.8em;
+    }
+
+    .feature-text button{
+        margin: 20px 0px;
+    }
+
+    .feature-style{
+        display: flex;
+        position: absolute;
+        top: 80%;
+        left: 55%;
+        transform: translateX(-55%);
+    }
+
+    .progress-area{
+        height: 130px;
+        top: 65%;
+        left: 18%;
+    }
+}
+
+@media(max-width:400px){
+    .feature-style{
+        display: flex;
+        position: absolute;
+        top: 80%;
+        left: 80%;
+        transform: translateX(-80%);
+    }
+
+    .Circle-to-search > img , .live-translate > img, .Interpreter > img, .Note-Assist > img, .Generative-Edit > img, .Chat-Assist > img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .chevron-back-circle-outline{
+        padding-right: 0px;
+    }
+    
+    .chevron-forward-circle-outline{
+        padding-left: 0px;
+    }
+}
+
+@media(max-width:780px){
+    .page3-top-text strong{
+        font-size: 1.7em;
+    }
+    
+    .span_1{
+        font-size: 1.2em;
+    }
+    
+    .span_2{
+        font-size: 1.2em;
+    }
+    
+    
+    .page3-top-text p{
+        white-space: nowrap;
+    }
+
+    .container{
+        width: 90%;
+    }
+
+    .film{
+        width: 90%;
+    }
+
+    .box-1 strong,.box-1 p{
+        font-size: 1em;
+    }
+
+    .box-2 strong,.box-2 p{
+        font-size: 1em;
+    }
+
+    .box-3 strong,.box-3 p{
+        font-size: 1em;
+    }
+
+    .box-1 span,.box-2 span,.box-3 span{
+        font-size: 0.8em;
+    }
+}
